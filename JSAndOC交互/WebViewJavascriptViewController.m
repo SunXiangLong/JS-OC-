@@ -19,7 +19,8 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    
+   self.automaticallyAdjustsScrollViewInsets = NO;
 
     /**
      *  需要前端在js代码面加上才可以实现功能  https://github.com/marcuswestin/WebViewJavascriptBridge参考

@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.xiaomabao.com/testapp.html"] cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:60];
    
     [_webView loadRequest:request];
